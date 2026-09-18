@@ -1,57 +1,32 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog.
-# The values below are the defaults. Set them in _config.yml (the file in
-# your repository root).
+# Your Website Title
+title: Melvin Ch'ng
 
-# remote_theme 指向 jekyll-for-everyone（GitHub Pages 會自行拉）
-remote_theme: melvinchng/jekyll-for-everyone
+# Your Website URL
+url: 'http://your-url.github.io'
 
-# 個人資料
-title: Peter's Blog
-tagline: 學習、安全、資訊分享
-description: >
-  技術筆記、資安心得、生活隨筆。
+# Leave it default
+baseurl: '' 
 
-author:
-  name: Peter
-  email: carlsin@gmail.com
-  bio: >
-    CCIE / CISSP / OSCP。專注網絡安全、產品經理。
+# Google Analytics
+ga_index: UA-XXXXXXXX-X
+ga_cv: UA-XXXXXXXX-X
 
-# 社交連結（會出現於首頁卡片）
-twitter_username: ""
-github_username:  carlsecai
-linkedin_username: ""
-instagram_username: ""
+# Index page and Profile Information
+name: Melvin Ch'ng
+tagline: Software Developer, IoT, Reverse Engineering
+pic: profile.png # profile.png can be found at /assets/images/profile.png
+description: Full Stack Developer, IoT, Reverse Engineering
+description_tiny: 'Home: +60-4 | Studied: +1-408 | Work: +60-3'
+email: you.email.email@gmail.com
+website: melvinchng.github.io # do not add http://
+linkedin: realmelvinchng
+github: melvinchng
+twitter: '@realmelvinchng'
 
-# base URL — GitHub Pages 部署用
-baseurl: ""   # 留空，GitHub Pages 會自動處理
-url: "https://carlsecai.github.io/mywebsite"
+# Files or folders to be excluded
+exclude: [gitbook_source_code/]
 
-# build 設定
-markdown: kramdown
-exclude: [vendor, Gemfile, Gemfile.lock]
-
-# 分頁設定（預設 5 篇每頁）
-paginate: 5
-paginate_path: "/blog/page:num/"
-
-# 谷歌分析（選填）
-# google_analytics: ""
-
-# disqus（選填）
-# disqus: ""
-
-# _data 檔案的控制
-cv_enable_sections:
-  summary: true
-  education: true
-  experience: true
-  projects: true
-  skills: true
-  courses: true
-  honors: true
-  languages: true
-  social_links: true
-  volunteer: true
+# All the plugins for Jekyll
+plugins:
+  - jekyll-sitemap
+  - wdm
