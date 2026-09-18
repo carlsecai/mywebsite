@@ -24,7 +24,7 @@
           <nav class="cover-navigation cover-navigation--primary">
             <ul class="navigation">
               {% for link in site.data.index_links %}
-                <li class="navigation__item"><a href="{{ link.link }}" title="{{ link.hover_text }}" class="blog-button">{{ link.title }}</a></li>
+                <li class="navigation__item"><a href="/{{ link.link }}" title="{{ link.hover_text }}" class="blog-button">{{ link.title }}</a></li>
               {% endfor %}
             </ul>
           </nav>
@@ -60,6 +60,26 @@
                 <span class="label">LinkedIn</span>
               </a>
             </li>
+            {% endif %}
+
+            {% if site.twitter %}
+              <!-- Twitter -->
+              <li class="navigation__item">
+                <a href="http://twitter.com/{{ site.twitter }}" title="{{ site.twitter }} on Twitter" target="_blank">
+                  <i class="icon icon-social-twitter"></i>
+                  <span class="label">Twitter</span>
+                </a>
+              </li>
+            {% endif %}
+
+            {% if site.facebook %}
+              <!-- Facebook -->
+              <li class="navigation__item">
+                <a href="http://fb.me/{{ site.facebook }}" title="{{ site.facebook }} on Facebook" target="_blank">
+                  <i class="icon icon-social-facebook"></i>
+                  <span class="label">Facebook</span>
+                </a>
+              </li>
             {% endif %}
         
             </ul>
