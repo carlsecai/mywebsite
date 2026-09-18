@@ -5,7 +5,7 @@ title: Carl Sin
 url: 'http://carlsec.com'
 
 # Leave it default
-baseurl: 'http://carlsec.com' 
+baseurl: '' 
 
 # Google Analytics
 ga_index: UA-XXXXXXXX-X
