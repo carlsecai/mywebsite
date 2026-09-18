@@ -5,7 +5,7 @@ title: Carl Sin
 url: 'http://carlsec.com'
 
 # Leave it default
-baseurl: '' 
+baseurl: 'http://carlsec.com' 
 
 # Google Analytics
 ga_index: UA-XXXXXXXX-X
@@ -15,8 +15,8 @@ ga_cv: UA-XXXXXXXX-X
 name: Carl Sin
 tagline: CCIE | CISSP | OSCP | Network Architect | Pentester | AI Security | Product Development |
 pic: profile.png # profile.png can be found at /assets/images/profile.png
-description: Network & Cybersecurity | SASE Product Manager   
-description_tiny: CCIE | CISSP | OSCP 
+description: Network & Cybersecurity & AI All the things      
+description_tiny: Record all my learnings
 email: hello@carlsec.com
 website: carlsec.com# do not add http://
 linkedin: carl-sin-83098b73
