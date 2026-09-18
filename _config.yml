@@ -1,0 +1,57 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog.
+# The values below are the defaults. Set them in _config.yml (the file in
+# your repository root).
+
+# remote_theme 指向 jekyll-for-everyone（GitHub Pages 會自行拉）
+remote_theme: melvinchng/jekyll-for-everyone
+
+# 個人資料
+title: Peter's Blog
+tagline: 學習、安全、資訊分享
+description: >
+  技術筆記、資安心得、生活隨筆。
+
+author:
+  name: Peter
+  email: carlsin@gmail.com
+  bio: >
+    CCIE / CISSP / OSCP。專注網絡安全、產品經理。
+
+# 社交連結（會出現於首頁卡片）
+twitter_username: ""
+github_username:  carlsecai
+linkedin_username: ""
+instagram_username: ""
+
+# base URL — GitHub Pages 部署用
+baseurl: ""   # 留空，GitHub Pages 會自動處理
+url: "https://carlsecai.github.io/mywebsite"
+
+# build 設定
+markdown: kramdown
+exclude: [vendor, Gemfile, Gemfile.lock]
+
+# 分頁設定（預設 5 篇每頁）
+paginate: 5
+paginate_path: "/blog/page:num/"
+
+# 谷歌分析（選填）
+# google_analytics: ""
+
+# disqus（選填）
+# disqus: ""
+
+# _data 檔案的控制
+cv_enable_sections:
+  summary: true
+  education: true
+  experience: true
+  projects: true
+  skills: true
+  courses: true
+  honors: true
+  languages: true
+  social_links: true
+  volunteer: true
